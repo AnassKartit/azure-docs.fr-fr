@@ -316,7 +316,7 @@ En fonction de la façon dont la télémétrie générée va être consommée, d
   La capture d’écran suivante montre les données de télémétrie Host.Results affichées dans le tableau de bord Performances d’Application Insights.
   :::image type="content" source="media/configure-monitoring/host-results-application-insights.png" alt-text="Capture d’écran de la télémétrie Host.Results dans le tableau de bord Performances d’Application Insights." lightbox="media/configure-monitoring/host-results-application-insights-big.png":::
 
-* **Comparaison de Host.Aggregator et de Host.Results** : les deux catégories fournissent de bons insights sur les exécutions de fonction. Si nécessaire, vous pouvez supprimer les informations détaillées de l’une de ces catégories, afin de pouvoir utiliser l’autre pour la supervision et les alertes.
+* **Comparaison de Host.Aggregator et de Host.Results** : les deux catégories fournissent de bonnes informations sur les exécutions de fonction. Si nécessaire, vous pouvez supprimer les informations détaillées de l’une de ces catégories, afin de pouvoir utiliser l’autre pour la supervision et les alertes.
 Voici un exemple :
 # <a name="v2x"></a>[v2.x+](#tab/v2)
 
