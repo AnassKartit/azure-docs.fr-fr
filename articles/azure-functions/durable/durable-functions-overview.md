@@ -265,7 +265,7 @@ Le modèle d’API HTTP asynchrone traite le problème de coordination de l’é
 
 Durable Functions fournit une **prise en charge intégrée** pour ce modèle, en simplifiant ou même en supprimant le code que vous devez écrire pour interagir avec des exécutions de fonctions de longue durée. Ainsi, les exemples de démarrage rapide de Durable Functions ([C#](durable-functions-create-first-csharp.md) et [JavaScript](quickstart-js-vscode.md)) montrent une commande REST simple qui vous permet de démarrer de nouvelles instances de fonctions orchestrator. Lorsqu’une instance démarre, l’extension expose des API HTTP webhook qui interrogent l’état de la fonction d’orchestrateur. 
 
-L’exemple suivant montre les commandes REST permettant de démarrer un orchestrateur et d’interroger son état. Par souci de clarté, certains détails du protocole ont été retirés de l’exemple.
+L’exemple ci-dessous décrit les commandes REST permettant de démarrer un orchestrateur et d’interroger son état. Par souci de clarté, certains détails du protocole ont été retirés de l’exemple.
 
 ```
 > curl -X POST https://myfunc.azurewebsites.net/api/orchestrators/DoWork -H "Content-Length: 0" -i
